@@ -1,3 +1,4 @@
+
 fun main() {
 
     var sumOfTransfersPerMonth = 0U
@@ -47,6 +48,7 @@ fun calculateTransferFee(
 ): UInt {
 
     val amountInKopecks = amount * 100U
+
     var transferFeeInKopecks = 0U
 
     when (paymentSystem) {

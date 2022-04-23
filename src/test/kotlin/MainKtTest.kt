@@ -157,7 +157,7 @@ class MainKtTest {
 
         val actualResult = getPaymentSystem(number)
 
-        assertEquals(expectedResult, actualResult)
+        assertEquals(PaymentSystems.MAESTRO, actualResult)
     }
 
     @Test
